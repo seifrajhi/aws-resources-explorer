@@ -3,8 +3,11 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
+    "bootstrap": "^3.4.1",
+=======
     "ajv": "^6.12.3",
-    "bootstrap": "^3.3.7",
+>>>>>>> main
     "enzyme": "^3.4.4",
     "jstree": "^3.3.5",
     "popper.js": "^1.14.4",
