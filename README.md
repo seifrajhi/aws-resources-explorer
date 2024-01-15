@@ -10,7 +10,6 @@ It uses [botocore](https://github.com/boto/botocore) to discover [AWS services](
 * gui/aws_inventory_data-&lt;environment_name&gt;.json - JSON format. Parsed responses structured for input to the GUI.
 
 
-
 # Prerequisites and  Installation
 
 First, you should have python 3.10 with [tk](https://formulae.brew.sh/formula/python-tk@3.11) support
@@ -23,11 +22,15 @@ PYTHON_CONFIGURE_OPTS="--with-tcltk-includes='-I/usr/local/opt/tcl-tk/include' -
 
 There is a small GUI for displaying progress which uses the standard Python *Tkinter* module. However, the underlying native library code for Tcl/Tk may need extra steps to install. Then,
 
-`pip3 install -r requirements.txt`
+```shell
+pip3 install -r requirements.txt
+```
 
 ## MacOS
 
-`brew install python-tk@3.11`
+```shell
+brew install python-tk@3.11
+```
 
 
 ## Windows
@@ -40,7 +43,9 @@ Use your OS package manager:
 
 ### Ubuntu / Debian
 
-`sudo apt-get install python-tk`
+```shell
+sudo apt-get install python-tk
+```
 
 # Usage
 
@@ -142,5 +147,3 @@ npm start
 ![Alt text](medias/Frontend-UI.png?raw=true "Resources list")
 
 >> This fork based on cool script from [Nccgroup](https://www.nccgroup.com/) guys, i'm only migrate script from python 2 to python 3.11
-
-
